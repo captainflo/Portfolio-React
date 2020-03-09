@@ -1,0 +1,21 @@
+.slider hr{
+  width: 40%;
+  border: 2px solid #00d2ff;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+p{
+  font-size: 18px;
+}
+
+.box-footer .slider .slides li .caption {
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  width: 70%;
+  opacity: 0;
+}

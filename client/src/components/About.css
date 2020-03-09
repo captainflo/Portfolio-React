@@ -1,0 +1,14 @@
+.about-text{
+  margin-top: 40px;
+}
+
+.about-image{
+  margin-top: 40px;
+}
+
+.about img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
