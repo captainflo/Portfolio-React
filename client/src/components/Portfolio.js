@@ -13,120 +13,125 @@ class Portfolio extends React.Component {
   state = {
     portfolio: [
       {
+        id: '23',
+        title: 'SOUND GRAB',
+        image: '/images/portfolio/SoundGrab/soundgrab01.png',
+      },
+      {
         id: '22',
-        title: 'WIKI Game',
-        image: '/images/portfolio/Game/wikiGame.png'
+        title: 'WIKI GANE',
+        image: '/images/portfolio/Game/wikiGame.png',
       },
       {
         id: '21',
         title: 'WIKI NETWORK',
-        image: '/images/portfolio/Wikinetwork/home.png'
+        image: '/images/portfolio/Wikinetwork/home.png',
       },
       {
         id: '20',
         title: 'WIKI SPORT',
-        image: '/images/portfolio/ReactSport/sport.png'
+        image: '/images/portfolio/ReactSport/sport.png',
       },
       {
         id: '19',
         title: 'OWLZ V2',
-        image: '/images/portfolio/OwlzV2/owlzv2.png'
+        image: '/images/portfolio/OwlzV2/owlzv2.png',
       },
       {
         id: '1',
         title: 'TRACKAPP REACT NATIVE',
-        image: '/images/portfolio/TrackApp/trackApp.png'
+        image: '/images/portfolio/TrackApp/trackApp.png',
       },
       {
         id: '2',
         title: 'REACT NATIVE FOOD',
-        image: '/images/portfolio/ReactNativeFood/food.png'
+        image: '/images/portfolio/ReactNativeFood/food.png',
       },
       {
         id: '3',
         title: 'MOVIE REACT',
-        image: '/images/portfolio/Movie/floweb-movie.png'
+        image: '/images/portfolio/Movie/floweb-movie.png',
       },
       {
         id: '4',
         title: 'RENT VEHICLES REACT',
-        image: '/images/portfolio/RentVehicleReact/vehicle.png'
+        image: '/images/portfolio/RentVehicleReact/vehicle.png',
       },
       {
         id: '5',
         title: 'SALON L’ESSENTIEL',
-        image: '/images/portfolio/SalonEssentiel2/floweb-salon01.png'
+        image: '/images/portfolio/SalonEssentiel2/floweb-salon01.png',
       },
       {
         id: '7',
         title: 'EMAILY',
-        image: '/images/portfolio/Emaily/home.png'
+        image: '/images/portfolio/Emaily/home.png',
       },
       {
         id: '8',
         title: 'OWLZ',
-        image: '/images/portfolio/Owlz/owlzHome.png'
+        image: '/images/portfolio/Owlz/owlzHome.png',
       },
       {
         id: '9',
         title: 'BEERVILLE',
-        image: '/images/portfolio/BeerVille/beerville.png'
+        image: '/images/portfolio/BeerVille/beerville.png',
       },
       {
         id: '6',
         title: 'REACT WITH API YOUTUBE',
-        image: '/images/portfolio/ReactYoutube/react-youtube.png'
+        image: '/images/portfolio/ReactYoutube/react-youtube.png',
       },
       {
         id: '10',
         title: 'MONGO SCRAPPER',
-        image: '/images/portfolio/Mongo/home.png'
+        image: '/images/portfolio/Mongo/home.png',
       },
       {
         id: '11',
         title: 'FLIGHT BOOKING',
-        image: '/images/portfolio/Interview/floweb-mundo.png'
+        image: '/images/portfolio/Interview/floweb-mundo.png',
       },
       {
         id: '12',
         title: 'INTERVIEW CHALLENGE',
-        image: '/images/portfolio/InterviewChallenge/home.png'
+        image: '/images/portfolio/InterviewChallenge/home.png',
       },
       {
         id: '13',
         title: 'MIKE COACH',
-        image: '/images/portfolio/Old/Mike/florianlahitte-mike.jpg'
+        image: '/images/portfolio/Old/Mike/florianlahitte-mike.jpg',
       },
       {
         id: '14',
         title: 'SHARE GOSSE',
-        image: '/images/portfolio/Old/ShareGosse/home.png'
+        image: '/images/portfolio/Old/ShareGosse/home.png',
       },
       {
         id: '15',
         title: 'LES ONGLES DE MYLENE',
-        image: '/images/portfolio/Old/Mimi/floweb-mylene.png'
+        image: '/images/portfolio/Old/Mimi/floweb-mylene.png',
       },
       {
         id: '16',
         title: 'SALON LESSENTIEL V1',
-        image: '/images/portfolio/Old/Salon/home.png'
+        image: '/images/portfolio/Old/Salon/home.png',
       },
       {
         id: '17',
         title: 'SUNDAY',
-        image: '/images/portfolio/Old/Sun/home.png'
+        image: '/images/portfolio/Old/Sun/home.png',
       },
       {
         id: '18',
         title: 'HOPEN FAMILY',
-        image: '/images/portfolio/Old/Hopen/01.png'
-      }
-    ]
+        image: '/images/portfolio/Old/Hopen/01.png',
+      },
+    ],
   };
 
-  renderBoxPortfolio = portfolios => {
-    return portfolios.map(portfolio => {
+  renderBoxPortfolio = (portfolios) => {
+    return portfolios.map((portfolio) => {
       if (
         portfolio.id !== '13' &&
         portfolio.id !== '14' &&
@@ -155,8 +160,8 @@ class Portfolio extends React.Component {
     });
   };
 
-  renderOldBoxPortfolio = portfolios => {
-    return portfolios.map(portfolio => {
+  renderOldBoxPortfolio = (portfolios) => {
+    return portfolios.map((portfolio) => {
       if (
         portfolio.id === '13' ||
         portfolio.id === '14' ||

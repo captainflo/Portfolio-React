@@ -12,19 +12,45 @@ class PortfolioDetail extends React.Component {
   state = {
     portfolio: [
       {
+        id: '23',
+        title: 'SOUND GRAB',
+        image: '/images/portfolio/SoundGrab/SoundGrab01.png',
+        titleDescription: 'PREMIUM STREAMING SERVICE',
+        description:
+          'The concept of this project was to create an apple music-style premium streaming service that allowed users to either become premium users or purchase streaming rights to their favoirte songs.',
+        description2:
+          'I designed and developed this website from scratch while leveraging prominent, dependable libraries.',
+        description3:
+          'Technologies used in this project include: React, Redux, Javascript ,Passport.js, Mongo, Mongoose, Node.js, Express.js, Stripe Api..., responsive for any device (phone, tablet, computer). Server: Heroku…',
+        imagePlus: [
+          '/images/portfolio/SoundGrab/SoundGrab02.png',
+          '/images/portfolio/SoundGrab/SoundGrab03.png',
+          '/images/portfolio/SoundGrab/SoundGrab04.png',
+          '/images/portfolio/SoundGrab/SoundGrab05.png',
+          '/images/portfolio/SoundGrab/SoundGrab06.png',
+        ],
+        link: 'https://soundgrab.herokuapp.com/',
+        git: 'https://github.com/captainflo/GrabSound',
+      },
+      {
         id: '22',
         title: 'WIKI GAME',
         image: '/images/portfolio/Game/wikiGame.png',
         titleDescription: 'SOCIAL NETWORK DEVELOPMENT',
         description:
-          'I designed and developed the overall website architecture matching the requested user experience.Application base on one Api you can have all details of video game by series, platforms, video, description, simular game, date release... Setting up a git repository, versioning Technology used: React, Redux, Javascript ,Passport.js, Mongo, Mongoose, Node.js, Express.js..., responsive for any device (phone, tablet, computer).Server: Heroku…',
+          'Application base on one Api (RAWG Video Games) you can have all details of video game by series, platforms, video, description, simular game, date release...',
+        description2:
+          'I designed and developed this website from scratch while leveraging prominent, dependable libraries.',
+        description3:
+          'Technologies used in this project include: React, Redux, Javascript ,Passport.js, Mongo, Mongoose, Node.js, Express.js..., responsive for any device (phone, tablet, computer). Server: Heroku…',
         imagePlus: [
           '/images/portfolio/Game/wikiGame02.png',
           '/images/portfolio/Game/wikiGame03.png',
           '/images/portfolio/Game/wikiGame04.png',
-          '/images/portfolio/Game/wikiGame05.png'
+          '/images/portfolio/Game/wikiGame05.png',
         ],
-        link: 'https://wikivideogame.herokuapp.com/'
+        link: 'https://wikivideogame.herokuapp.com/',
+        git: 'https://github.com/captainflo/Game-React',
       },
       {
         id: '21',
@@ -32,15 +58,20 @@ class PortfolioDetail extends React.Component {
         image: '/images/portfolio/Wikinetwork/home.png',
         titleDescription: 'SOCIAL NETWORK DEVELOPMENT',
         description:
-          'I designed and developed the overall website architecture matching the requested user experience. Application like tinder but oriented professional,Swipe profile, Match with them, live chat, notification on your dashboard... Setting up a git repository, versioning Technology used: React, Redux, Socket.io, Cloudinary, Javascript ,Passport.js, Mongo, Mongoose, Node.js, Express.js..., responsive for any device (phone, tablet, computer).Server: Heroku…',
+          'Application like tinder but oriented professional,Swipe profile, Match with them, live chat, notification on your dashboard...',
+        description2:
+          'I designed and developed this website from scratch while leveraging prominent, dependable libraries.',
+        description3:
+          'Technologies used in this project include: React, Redux, Socket.io, Cloudinary, Javascript ,Passport.js, Mongo, Mongoose, Node.js, Express.js..., responsive for any device (phone, tablet, computer).Server: Heroku…',
         imagePlus: [
           '/images/portfolio/Wikinetwork/home02.png',
           '/images/portfolio/Wikinetwork/home03.png',
           '/images/portfolio/Wikinetwork/home04.png',
           '/images/portfolio/Wikinetwork/home05.png',
-          '/images/portfolio/Wikinetwork/home06.png'
+          '/images/portfolio/Wikinetwork/home06.png',
         ],
-        link: 'https://wikinetwork.herokuapp.com'
+        link: 'https://wikinetwork.herokuapp.com',
+        git: 'https://github.com/captainflo/Wikinetwork',
       },
       {
         id: '20',
@@ -52,9 +83,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/ReactSport/sport1.png',
           '/images/portfolio/ReactSport/sport2.png',
-          '/images/portfolio/ReactSport/sport3.png'
+          '/images/portfolio/ReactSport/sport3.png',
         ],
-        link: 'https://wikisport.herokuapp.com'
+        link: 'https://wikisport.herokuapp.com',
       },
       {
         id: '19',
@@ -66,9 +97,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/OwlzV2/owlzv202.png',
           '/images/portfolio/OwlzV2/owlzv203.png',
-          '/images/portfolio/OwlzV2/owlzv204.png'
+          '/images/portfolio/OwlzV2/owlzv204.png',
         ],
-        link: 'https://fowlz.herokuapp.com/'
+        link: 'https://fowlz.herokuapp.com/',
       },
       {
         id: '1',
@@ -78,7 +109,7 @@ class PortfolioDetail extends React.Component {
         description:
           'I designed and developed the overall web mobile architecture matching the requested user experience. Setting up a git repository, versioning Technology used: React, React Native, React-native-elements,  React Native Maps, Javascript …',
         imagePlus: [],
-        link: 'https://github.com/captainflo/Track-ReactNative'
+        link: 'https://github.com/captainflo/Track-ReactNative',
       },
       {
         id: '2',
@@ -87,7 +118,7 @@ class PortfolioDetail extends React.Component {
         titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Course Project)',
         description:
           'I designed and developed the overall web mobile architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, React Native,Javascript, Api Yelp..',
-        link: 'https://github.com/captainflo/React-Native-Restaurant'
+        link: 'https://github.com/captainflo/React-Native-Restaurant',
       },
       {
         id: '3',
@@ -99,9 +130,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/Movie/floweb-movie02.png',
           '/images/portfolio/Movie/floweb-movie03.png',
-          '/images/portfolio/Movie/floweb-movie04.png'
+          '/images/portfolio/Movie/floweb-movie04.png',
         ],
-        link: 'https://morning-ravine-32595.herokuapp.com/'
+        link: 'https://morning-ravine-32595.herokuapp.com/',
       },
       {
         id: '4',
@@ -113,11 +144,11 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/RentVehicleReact/vehicle02.png',
           '/images/portfolio/RentVehicleReact/vehicle03.png',
-          '/images/portfolio/RentVehicleReact/vehicle04.png'
+          '/images/portfolio/RentVehicleReact/vehicle04.png',
         ],
         test:
           'Login: Ron@gmail.com // Password: Moustache33 // Credit card number : (4242 4242 4242 4242)',
-        link: 'https://still-wildwood-65496.herokuapp.com/'
+        link: 'https://still-wildwood-65496.herokuapp.com/',
       },
       {
         id: '5',
@@ -129,9 +160,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/SalonEssentiel2/floweb-salon02.png',
           '/images/portfolio/SalonEssentiel2/floweb-salon03.png',
-          '/images/portfolio/SalonEssentiel2/floweb-salon04.png'
+          '/images/portfolio/SalonEssentiel2/floweb-salon04.png',
         ],
-        link: 'https://jc-salon-essentiel.herokuapp.com/'
+        link: 'https://jc-salon-essentiel.herokuapp.com/',
       },
       {
         id: '9',
@@ -143,9 +174,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/BeerVille/beerville02.png',
           '/images/portfolio/BeerVille/beerville03.png',
-          '/images/portfolio/BeerVille/beerville04.png'
+          '/images/portfolio/BeerVille/beerville04.png',
         ],
-        link: 'https://theartofnoise.github.io/Project1/index.html'
+        link: 'https://theartofnoise.github.io/Project1/index.html',
       },
       {
         id: '7',
@@ -157,10 +188,10 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/Emaily/floweb-emaily02.png',
           '/images/portfolio/Emaily/floweb-emaily03.png',
-          '/images/portfolio/Emaily/floweb-emaily04.png'
+          '/images/portfolio/Emaily/floweb-emaily04.png',
         ],
         test: 'Credit card number : (4242 4242 4242 4242)',
-        link: 'https://calm-coast-77343.herokuapp.com/'
+        link: 'https://calm-coast-77343.herokuapp.com/',
       },
       {
         id: '8',
@@ -172,10 +203,10 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/Owlz/owlz05.png',
           '/images/portfolio/Owlz/owlz03.png',
-          '/images/portfolio/Owlz/owlz04.png'
+          '/images/portfolio/Owlz/owlz04.png',
         ],
         test: 'Credit card number : (4242 4242 4242 4242)',
-        link: 'https://powerful-anchorage-11786.herokuapp.com/'
+        link: 'https://powerful-anchorage-11786.herokuapp.com/',
       },
       {
         id: '6',
@@ -184,7 +215,7 @@ class PortfolioDetail extends React.Component {
         titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Course Project)',
         description:
           'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, Semantic, HTML5, CSS3, Javascript, Axios, Youtube Api… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
-        link: 'https://murmuring-fjord-10669.herokuapp.com/'
+        link: 'https://murmuring-fjord-10669.herokuapp.com/',
       },
       {
         id: '10',
@@ -196,9 +227,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/Mongo/mongo02.png',
           '/images/portfolio/Mongo/mongo03.png',
-          '/images/portfolio/Mongo/mongo04.png'
+          '/images/portfolio/Mongo/mongo04.png',
         ],
-        link: 'https://fast-everglades-83605.herokuapp.com/index.html'
+        link: 'https://fast-everglades-83605.herokuapp.com/index.html',
       },
       {
         id: '11',
@@ -210,10 +241,10 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/Interview/floweb-mundo2.png',
           '/images/portfolio/Interview/floweb-mundo3.png',
-          '/images/portfolio/Interview/floweb-mundo4.png'
+          '/images/portfolio/Interview/floweb-mundo4.png',
         ],
         test: 'Api they gave me is not working anymore to make the request :(',
-        link: 'https://floating-mesa-22897.herokuapp.com/'
+        link: 'https://floating-mesa-22897.herokuapp.com/',
       },
       {
         id: '12',
@@ -225,9 +256,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/InterviewChallenge/challenge2.png',
           '/images/portfolio/InterviewChallenge/challenge3.png',
-          '/images/portfolio/InterviewChallenge/challenge4.png'
+          '/images/portfolio/InterviewChallenge/challenge4.png',
         ],
-        link: 'https://ancient-tundra-32640.herokuapp.com/'
+        link: 'https://ancient-tundra-32640.herokuapp.com/',
       },
       {
         id: '13',
@@ -239,9 +270,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/Old/Mike/florianlahitte-mike2.jpg',
           '/images/portfolio/Old/Mike/florianlahitte-mike3.png',
-          '/images/portfolio/Old/Mike/floweb-sport.png'
+          '/images/portfolio/Old/Mike/floweb-sport.png',
         ],
-        link: 'https://coach-mike.herokuapp.com/'
+        link: 'https://coach-mike.herokuapp.com/',
       },
       {
         id: '14',
@@ -253,9 +284,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/Old/ShareGosse/floweb-sharegosses2.png',
           '/images/portfolio/Old/ShareGosse/floweb-sharegosses3.png',
-          '/images/portfolio/Old/ShareGosse/floweb-sharegosses5.png'
+          '/images/portfolio/Old/ShareGosse/floweb-sharegosses5.png',
         ],
-        link: 'https://www.bougetonkid.fr/'
+        link: 'https://www.bougetonkid.fr/',
       },
       {
         id: '15',
@@ -267,9 +298,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/Old/Mimi/floweb-mylene01.png',
           '/images/portfolio/Old/Mimi/floweb-mylene02.png',
-          '/images/portfolio/Old/Mimi/floweb-mylene03.png'
+          '/images/portfolio/Old/Mimi/floweb-mylene03.png',
         ],
-        link: 'https://mylene-ongle.herokuapp.com/'
+        link: 'https://mylene-ongle.herokuapp.com/',
       },
       {
         id: '16',
@@ -281,9 +312,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/Old/Salon/floweb-mylene01.png',
           '/images/portfolio/Old/Mimi/floweb-mylene02.png',
-          '/images/portfolio/Old/Mimi/floweb-mylene03.png'
+          '/images/portfolio/Old/Mimi/floweb-mylene03.png',
         ],
-        link: 'https://salon-essentiel.herokuapp.com/'
+        link: 'https://salon-essentiel.herokuapp.com/',
       },
       {
         id: '17',
@@ -295,9 +326,9 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/Old/Sun/floweb-sunday02.png',
           '/images/portfolio/Old/Sun/floweb-sunday04.png',
-          '/images/portfolio/Old/Sun/floweb-sunday06.png'
+          '/images/portfolio/Old/Sun/floweb-sunday06.png',
         ],
-        link: 'https://www.sunday.love/us/'
+        link: 'https://www.sunday.love/us/',
       },
       {
         id: '18',
@@ -309,18 +340,18 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/Old/Hopen/02.png',
           '/images/portfolio/Old/Hopen/03.png',
-          '/images/portfolio/Old/Hopen/04.png'
+          '/images/portfolio/Old/Hopen/04.png',
         ],
-        link: 'https://hopen.herokuapp.com/'
-      }
-    ]
+        link: 'https://hopen.herokuapp.com/',
+      },
+    ],
   };
 
-  renderMultipleImage = images => {
+  renderMultipleImage = (images) => {
     if (images) {
-      return images.map(image => {
+      return images.map((image) => {
         return (
-          <div className="box-image">
+          <div key={image} className="box-image">
             <img src={image} alt={image} />
           </div>
         );
@@ -328,11 +359,11 @@ class PortfolioDetail extends React.Component {
     }
   };
 
-  renderBoxPortfolio = portfolio => {
+  renderBoxPortfolio = (portfolio) => {
     for (let i = 0; i < portfolio.length; i++) {
       if (this.props.match.params.id === this.state.portfolio[i].id) {
         return (
-          <div>
+          <div key={portfolio[i].title}>
             <div className="titleBox center">
               <h4>{this.state.portfolio[i].title}</h4>
             </div>
@@ -357,7 +388,21 @@ class PortfolioDetail extends React.Component {
                     <div className="moreDescription">
                       <h6>{this.state.portfolio[i].titleDescription}</h6>
                       <p>{this.state.portfolio[i].description}</p>
+                      <p>{this.state.portfolio[i].description2}</p>
+                      <p>{this.state.portfolio[i].description3}</p>
                       <p>{this.state.portfolio[i].test}</p>
+                      <a
+                        href={this.state.portfolio[i].git}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i
+                          style={{ marginLeft: '0px', fontSize: '20px' }}
+                          className="fab fa-github-square"
+                        ></i>{' '}
+                        GitHub
+                      </a>
+                      <br></br>
                       <a
                         href={this.state.portfolio[i].link}
                         target="_blank"
