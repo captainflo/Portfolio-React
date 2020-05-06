@@ -15,7 +15,7 @@ class Portfolio extends React.Component {
       {
         id: '23',
         title: 'SOUND GRAB',
-        image: '/images/portfolio/SoundGrab/soundgrab01.png',
+        image: '/images/portfolio/soundgrab/soundgrab01.png',
       },
       {
         id: '22',

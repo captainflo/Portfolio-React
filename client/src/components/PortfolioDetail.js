@@ -14,7 +14,7 @@ class PortfolioDetail extends React.Component {
       {
         id: '23',
         title: 'SOUND GRAB',
-        image: '/images/portfolio/SoundGrab/SoundGrab01.png',
+        image: '/images/portfolio/SoundGrab/soundgrab01.png',
         titleDescription: 'PREMIUM STREAMING SERVICE',
         description:
           'The concept of this project was to create an apple music-style premium streaming service that allowed users to either become premium users or purchase streaming rights to their favoirte songs.',
@@ -23,11 +23,11 @@ class PortfolioDetail extends React.Component {
         description3:
           'Technologies used in this project include: React, Redux, Javascript ,Passport.js, Mongo, Mongoose, Node.js, Express.js, Stripe Api..., responsive for any device (phone, tablet, computer). Server: Heroku…',
         imagePlus: [
-          '/images/portfolio/SoundGrab/SoundGrab02.png',
-          '/images/portfolio/SoundGrab/SoundGrab03.png',
-          '/images/portfolio/SoundGrab/SoundGrab04.png',
-          '/images/portfolio/SoundGrab/SoundGrab05.png',
-          '/images/portfolio/SoundGrab/SoundGrab06.png',
+          '/images/portfolio/SoundGrab/soundgrab02.png',
+          '/images/portfolio/SoundGrab/soundgrab03.png',
+          '/images/portfolio/SoundGrab/soundgrab04.png',
+          '/images/portfolio/SoundGrab/soundgrab05.png',
+          '/images/portfolio/SoundGrab/soundgrab06.png',
         ],
         link: 'https://soundgrab.herokuapp.com/',
         git: 'https://github.com/captainflo/GrabSound',
@@ -36,11 +36,11 @@ class PortfolioDetail extends React.Component {
         id: '22',
         title: 'WIKI GAME',
         image: '/images/portfolio/Game/wikiGame.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT',
+        titleDescription: 'GAMERS KNOWLEDGEBASE APP',
         description:
-          'Application base on one Api (RAWG Video Games) you can have all details of video game by series, platforms, video, description, simular game, date release...',
+          'The goal of this project was to consolidate game data and analytics into a single platform that offered gameplay examples, lore, ratings, reviews, and any information a gamer might need to make an informed decision.',
         description2:
-          'I designed and developed this website from scratch while leveraging prominent, dependable libraries.',
+          'With so many data points on so many games, it was difficult to figure out how to filter out the content coming from the RAWG Video Games API and cater the high quality content to the user.',
         description3:
           'Technologies used in this project include: React, Redux, Javascript ,Passport.js, Mongo, Mongoose, Node.js, Express.js..., responsive for any device (phone, tablet, computer). Server: Heroku…',
         imagePlus: [
@@ -56,13 +56,13 @@ class PortfolioDetail extends React.Component {
         id: '21',
         title: 'WIKINETWORK',
         image: '/images/portfolio/Wikinetwork/home.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT',
+        titleDescription: 'PROFESSIONAL NETWORKING APP',
         description:
-          'Application like tinder but oriented professional,Swipe profile, Match with them, live chat, notification on your dashboard...',
+          'The concept of this app is to offer a tinder-style matching between professionals. Offering a public profile, private instant chat with notifications, and contact sharing.',
         description2:
-          'I designed and developed this website from scratch while leveraging prominent, dependable libraries.',
+          'This project required the use of a new set of UI-based libraries to achieve the simple yet effective swipe functionality that has become a staple of our culture, but now applied to professional networking.',
         description3:
-          'Technologies used in this project include: React, Redux, Socket.io, Cloudinary, Javascript ,Passport.js, Mongo, Mongoose, Node.js, Express.js..., responsive for any device (phone, tablet, computer).Server: Heroku…',
+          'Technologies used in this project include: React, Redux, Socket.io, Cloudinary, Javascript ,Passport.js, Mongo, Mongoose, Node.js, Express.js..., responsive for any device (phone, tablet, computer). Server: Heroku…',
         imagePlus: [
           '/images/portfolio/Wikinetwork/home02.png',
           '/images/portfolio/Wikinetwork/home03.png',
@@ -77,37 +77,49 @@ class PortfolioDetail extends React.Component {
         id: '20',
         title: 'WIKISPORT',
         image: '/images/portfolio/ReactSport/sport.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT',
+        titleDescription: 'LIVE SPORT ANALYTICS APP ',
         description:
-          'I designed and developed the overall website architecture matching the requested user experience. Base on one Api you can have all the details of sport category, league, team, season, news (some features are no longer accessible due to having reached Api limits:( Ex: player details: https://wikisport.herokuapp.com/player/34162098). Setting up a git repository, versioning Technology used: React, Redux, Cheerio (scrapping news), Javascript, Mongo, Mongoose, Node.js, Express.js, responsive for any device (phone, tablet, computer).Server: Heroku…',
+          'Using a single API, this project enables sports fans to track and analyze games, seasons, players, teams, and relevant news with realtime data in a user friendly interface. As of May 6, 2020, some features are not accessible due to API limits being reached.( e.g.: player details: https://wikisport.herokuapp.com/player/34162098).',
+        description2:
+          'A principle difficulty in this project was to create a consitent framework around very different sports so that they work and feel the same.',
+        description3:
+          'Technologies used in this project include: React, Redux, Cheerio (Scrapping News from New York Times), Javascript, Mongo, Mongoose, Node.js, Express.js, responsive for any device (phone, tablet, computer). Server: Heroku…',
         imagePlus: [
           '/images/portfolio/ReactSport/sport1.png',
           '/images/portfolio/ReactSport/sport2.png',
           '/images/portfolio/ReactSport/sport3.png',
         ],
         link: 'https://wikisport.herokuapp.com',
+        git: 'https://github.com/captainflo/Sport-React',
       },
       {
         id: '19',
         title: 'OWLZ V2',
         image: '/images/portfolio/OwlzV2/owlzv2.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT',
+        titleDescription: 'RESERVATION LEAD MAGNET APP',
         description:
-          'I designed and developed the overall website architecture matching the requested user experience. Guest can apply into the form to be in relation with Owlz liaison (Promoter) then the relation receive alert by email and also into is dashboard. Setting up a git repository, versioning Technology used: React, React-Widget, Redux, SendGrid, Javascript, Mongo, Mongoose, Node.js, Express.js, responsive for any device (phone, tablet, computer).Server: Heroku…',
+          'This app offers a high-end experience for tourists whom stay at partnered hotels by handling their requests and setting the arrangements for any event they might want to have.',
+        description2:
+          'The wizard form collects information in steps to maximize the conversion of users. Once a request is submitted, it is logged on the admin dashboard and can be handled by the app admin.',
+        description3:
+          'Technologies used in this project include: React, React-Widget, Redux, SendGrid, Javascript, Mongo, Mongoose, Node.js, Express.js, responsive for any device (phone, tablet, computer). Server: Heroku…',
         imagePlus: [
           '/images/portfolio/OwlzV2/owlzv202.png',
           '/images/portfolio/OwlzV2/owlzv203.png',
           '/images/portfolio/OwlzV2/owlzv204.png',
         ],
         link: 'https://fowlz.herokuapp.com/',
+        git: 'https://github.com/owlzApp/owlzApp',
       },
       {
         id: '1',
         title: 'TRACKAPP REACT NATIVE',
         image: '/images/portfolio/TrackApp/trackApp.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Course Project)',
+        titleDescription: 'ACTIVITY TRACKER APP (COUSE PROJECT)',
         description:
-          'I designed and developed the overall web mobile architecture matching the requested user experience. Setting up a git repository, versioning Technology used: React, React Native, React-native-elements,  React Native Maps, Javascript …',
+          'This react-native app leverages the location tracking capabilities of the phone to log your runs or runs in real time and presents you with the output in kilometers and time.',
+        description2:
+          'Technologies used in this project include: React, React Native, React-native-elements,  React Native Maps, Javascript …',
         imagePlus: [],
         link: 'https://github.com/captainflo/Track-ReactNative',
       },
@@ -115,18 +127,24 @@ class PortfolioDetail extends React.Component {
         id: '2',
         title: 'REACT NATIVE FOOD',
         image: '/images/portfolio/ReactNativeFood/food.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Course Project)',
+        titleDescription: 'MEALFINDER APP (COURSE PROJECT)',
         description:
-          'I designed and developed the overall web mobile architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, React Native,Javascript, Api Yelp..',
+          'Search for restaurants by menu items, food types, or cultural backgrounds based on location and time!',
+        description2:
+          'Technologies used in this project include: React, React Native,Javascript, Api Yelp..',
         link: 'https://github.com/captainflo/React-Native-Restaurant',
       },
       {
         id: '3',
         title: 'MOVIE REACT',
         image: '/images/portfolio/Movie/floweb-movie.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Personal Project)',
+        titleDescription: 'MOVIEFACTS APP',
         description:
-          'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, Redux, Materialize, HTML5, CSS3, Javascript, Mongo, Mongoose, Node.js, Express.js, MovieDb Api,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
+          'Using a single API (TMDB), this app offers easy access to deeper details into shows and movies with regards to their cast, their plot, reviews,  and other information that gives you a wealth of context.',
+        description2:
+          'The difficulty here was to make suggestions for related movies based on the current movie or actor that is being viewed.',
+        description3:
+          'Technologies used in this project include: React, Redux, Materialize, HTML5, CSS3, Javascript, Mongo, Mongoose, Node.js, Express.js, MovieDb Api,UX, responsive for any device (phone, tablet, computer). Server: Heroku',
         imagePlus: [
           '/images/portfolio/Movie/floweb-movie02.png',
           '/images/portfolio/Movie/floweb-movie03.png',
@@ -138,9 +156,13 @@ class PortfolioDetail extends React.Component {
         id: '4',
         title: 'RENT VEHICLES REACT',
         image: '/images/portfolio/RentVehicleReact/vehicle.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Personal Project)',
+        titleDescription: 'LUXURY TRANSPORT APP',
         description:
-          'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, Redux, Materialize, HTML5, CSS3, Javascript, Mongo, Mongoose, Node.js, Express.js, Google Api, Stripe… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
+          'Reserve or rent out your boat, car, motorcycle for as short as half a day, an event or even a long-term lease. This app is similar to AirBnB in that it allows vehicle owners to rent out their vehicles for extra income in a way that is hassle free and that has transparent transactions.',
+        description2:
+          'The principle difficulty in this project was the Google Map API that needed to be customized, filtered through, and updated in realtime.',
+        description3:
+          'Technologies used in this project include: React, Redux, Materialize, HTML5, CSS3, Javascript, Mongo, Mongoose, Node.js, Express.js, Google Api, Stripe… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
         imagePlus: [
           '/images/portfolio/RentVehicleReact/vehicle02.png',
           '/images/portfolio/RentVehicleReact/vehicle03.png',
@@ -154,7 +176,7 @@ class PortfolioDetail extends React.Component {
         id: '5',
         title: 'SALON L’ESSENTIEL',
         image: '/images/portfolio/SalonEssentiel2/floweb-salon01.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT',
+        titleDescription: 'LOCAL SALON LANDING PAGE',
         description:
           'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, Materialize, HTML5, CSS3, Javascript, Node.js, Express.js… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku.',
         imagePlus: [
@@ -182,8 +204,10 @@ class PortfolioDetail extends React.Component {
         id: '7',
         title: 'EMAILY',
         image: '/images/portfolio/Emaily/floweb-emaily.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Course Project)',
+        titleDescription: 'REVIEWCAMPAIGNS (COURSE WORK)',
         description:
+          ' Helps your customers to give reviews and provide valuable feedback via emails.',
+        description2:
           'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, Redux, Materialize, HTML5, CSS3, Javascript, Mongo, Mongoose, Node.js, Express.js, SendGrid, Stripe… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
         imagePlus: [
           '/images/portfolio/Emaily/floweb-emaily02.png',
