@@ -15,7 +15,7 @@ class Portfolio extends React.Component {
       {
         id: '23',
         title: 'SOUND GRAB',
-        image: '/images/portfolio/soundgrab/soundgrab01.png',
+        image: '/images/portfolio/SoundGrab/soundgrab01.png',
       },
       {
         id: '22',
@@ -33,21 +33,6 @@ class Portfolio extends React.Component {
         image: '/images/portfolio/ReactSport/sport.png',
       },
       {
-        id: '19',
-        title: 'OWLZ V2',
-        image: '/images/portfolio/OwlzV2/owlzv2.png',
-      },
-      {
-        id: '1',
-        title: 'TRACKAPP REACT NATIVE',
-        image: '/images/portfolio/TrackApp/trackApp.png',
-      },
-      {
-        id: '2',
-        title: 'REACT NATIVE FOOD',
-        image: '/images/portfolio/ReactNativeFood/food.png',
-      },
-      {
         id: '3',
         title: 'MOVIE REACT',
         image: '/images/portfolio/Movie/floweb-movie.png',
@@ -61,6 +46,21 @@ class Portfolio extends React.Component {
         id: '5',
         title: 'SALON L’ESSENTIEL',
         image: '/images/portfolio/SalonEssentiel2/floweb-salon01.png',
+      },
+      {
+        id: '19',
+        title: 'OWLZ V2',
+        image: '/images/portfolio/OwlzV2/owlzv2.png',
+      },
+      {
+        id: '1',
+        title: 'TRACKAPP REACT NATIVE',
+        image: '/images/portfolio/TrackApp/trackApp.png',
+      },
+      {
+        id: '2',
+        title: 'REACT NATIVE FOOD',
+        image: '/images/portfolio/ReactNativeFood/food.png',
       },
       {
         id: '7',

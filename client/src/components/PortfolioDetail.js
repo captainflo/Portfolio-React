@@ -121,7 +121,7 @@ class PortfolioDetail extends React.Component {
         description2:
           'Technologies used in this project include: React, React Native, React-native-elements,  React Native Maps, Javascript …',
         imagePlus: [],
-        link: 'https://github.com/captainflo/Track-ReactNative',
+        git: 'https://github.com/captainflo/Track-ReactNative',
       },
       {
         id: '2',
@@ -132,7 +132,7 @@ class PortfolioDetail extends React.Component {
           'Search for restaurants by menu items, food types, or cultural backgrounds based on location and time!',
         description2:
           'Technologies used in this project include: React, React Native,Javascript, Api Yelp..',
-        link: 'https://github.com/captainflo/React-Native-Restaurant',
+        git: 'https://github.com/captainflo/React-Native-Restaurant',
       },
       {
         id: '3',
@@ -151,6 +151,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/Movie/floweb-movie04.png',
         ],
         link: 'https://morning-ravine-32595.herokuapp.com/',
+        git: 'https://github.com/captainflo/Movie-react',
       },
       {
         id: '4',
@@ -171,6 +172,7 @@ class PortfolioDetail extends React.Component {
         test:
           'Login: Ron@gmail.com // Password: Moustache33 // Credit card number : (4242 4242 4242 4242)',
         link: 'https://still-wildwood-65496.herokuapp.com/',
+        git: 'https://github.com/captainflo/React-Vehicles',
       },
       {
         id: '5',
@@ -178,7 +180,7 @@ class PortfolioDetail extends React.Component {
         image: '/images/portfolio/SalonEssentiel2/floweb-salon01.png',
         titleDescription: 'LOCAL SALON LANDING PAGE',
         description:
-          'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, Materialize, HTML5, CSS3, Javascript, Node.js, Express.js… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku.',
+          'I designed and developed the overall website architecture matching the requested user experience. Technologies used in this project include: React, Materialize, HTML5, CSS3, Javascript, Node.js, Express.js… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku.',
         imagePlus: [
           '/images/portfolio/SalonEssentiel2/floweb-salon02.png',
           '/images/portfolio/SalonEssentiel2/floweb-salon03.png',
@@ -190,15 +192,18 @@ class PortfolioDetail extends React.Component {
         id: '9',
         title: 'BEERVILLE',
         image: '/images/portfolio/BeerVille/beerville.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Project School)',
+        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (PROJECT SCHOOL)',
         description:
-          'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: Bootstrap, HTML5, CSS3, Javascript, Firebase, Ajax, Jquery …API: DB Breweries ,UX, responsive for any device (phone, tablet, computer).Server: GitHub',
+          'This App is a way for the learning connoisseur to find legitimate breweries approved by an already experienced audience, while also having convenient tools for learning about certain popular beer brands and types.',
+        description2:
+          'I designed and developed the overall website architecture matching the requested user experience. Technologies used in this project include: Bootstrap, HTML5, CSS3, Javascript, Firebase, Ajax, Jquery …API: DB Breweries ,UX, responsive for any device (phone, tablet, computer).Server: GitHub',
         imagePlus: [
           '/images/portfolio/BeerVille/beerville02.png',
           '/images/portfolio/BeerVille/beerville03.png',
           '/images/portfolio/BeerVille/beerville04.png',
         ],
         link: 'https://theartofnoise.github.io/Project1/index.html',
+        git: 'https://github.com/captainflo/beerville',
       },
       {
         id: '7',
@@ -208,7 +213,7 @@ class PortfolioDetail extends React.Component {
         description:
           ' Helps your customers to give reviews and provide valuable feedback via emails.',
         description2:
-          'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, Redux, Materialize, HTML5, CSS3, Javascript, Mongo, Mongoose, Node.js, Express.js, SendGrid, Stripe… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
+          'Technologies used in this project include: React, Redux, Materialize, HTML5, CSS3, Javascript, Mongo, Mongoose, Node.js, Express.js, SendGrid, Stripe… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
         imagePlus: [
           '/images/portfolio/Emaily/floweb-emaily02.png',
           '/images/portfolio/Emaily/floweb-emaily03.png',
@@ -216,14 +221,17 @@ class PortfolioDetail extends React.Component {
         ],
         test: 'Credit card number : (4242 4242 4242 4242)',
         link: 'https://calm-coast-77343.herokuapp.com/',
+        git: 'https://github.com/captainflo/SurveyApp-react',
       },
       {
         id: '8',
         title: 'OWLZ',
         image: '/images/portfolio/Owlz/owlz.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Project School)',
+        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (PROJECT SCHOOL)',
         description:
-          'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, Bootstrap, HTML5, CSS3, Javascript, MySQL, Sequelize, Jquery, Node.js, Express.js, Moment.js, Cloudinary, Stripe… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
+          'This is my final Project from the University of Miami, The purpose of the app is to connect you with the best liaisons in the city',
+        description2:
+          'I designed and developed the overall website architecture, Technologies used: React, Bootstrap, HTML5, CSS3, Javascript, MySQL, Sequelize, Jquery, Node.js, Express.js, Moment.js, Cloudinary, Stripe… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
         imagePlus: [
           '/images/portfolio/Owlz/owlz05.png',
           '/images/portfolio/Owlz/owlz03.png',
@@ -231,35 +239,40 @@ class PortfolioDetail extends React.Component {
         ],
         test: 'Credit card number : (4242 4242 4242 4242)',
         link: 'https://powerful-anchorage-11786.herokuapp.com/',
+        git: 'https://github.com/captainflo/owlz',
       },
       {
         id: '6',
         title: 'REACT WITH API YOUTUBE',
         image: '/images/portfolio/ReactYoutube/react-youtube.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Course Project)',
+        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (COURSE WORK)',
         description:
           'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, Semantic, HTML5, CSS3, Javascript, Axios, Youtube Api… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
         link: 'https://murmuring-fjord-10669.herokuapp.com/',
+        git: 'https://github.com/captainflo/youtube-react',
       },
       {
         id: '10',
         title: 'MONGO',
         image: '/images/portfolio/Mongo/home.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Project School)',
+        titleDescription: 'SCRAPING ARTICLES (PROJECT SCHOOL)',
         description:
-          'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: Bootstrap, HTML5, CSS3, Javascript, Mongo, axios, Jquery, Node.js, Express.js ,Mongoose db, Cheerio, Api: New York Times… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
+          'An app that scrapes articles from the New York Times website and lets users save articles and leave comments on the latest news.',
+        description2:
+          'Setting up a git repository, versioning Technology used: Bootstrap, HTML5, CSS3, Javascript, Mongo, axios, Jquery, Node.js, Express.js ,Mongoose db, Cheerio, Api: New York Times… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
         imagePlus: [
           '/images/portfolio/Mongo/mongo02.png',
           '/images/portfolio/Mongo/mongo03.png',
           '/images/portfolio/Mongo/mongo04.png',
         ],
         link: 'https://fast-everglades-83605.herokuapp.com/index.html',
+        git: 'https://github.com/captainflo/mongo-scraper',
       },
       {
         id: '11',
         title: 'FLIGHT BOOKING',
         image: '/images/portfolio/Interview/floweb-mundo.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Interview Challenge)',
+        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (INTERVIEW TEST)',
         description:
           'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: Bootstrap, HTML5, CSS3, Javascript, MySQL, Sequelize, Jquery, Node.js, Express.js, Moment.js… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
         imagePlus: [
@@ -274,7 +287,7 @@ class PortfolioDetail extends React.Component {
         id: '12',
         title: 'CHALLENGE INTERVIEW',
         image: '/images/portfolio/InterviewChallenge/home.png',
-        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (Interview Test)',
+        titleDescription: 'SOCIAL NETWORK DEVELOPMENT (INTERVIEW TEST)',
         description:
           'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: Bootstrap, HTML5, CSS3, Javascript, MySQL, Ajax, Jquery, Node.js, Express.js ,Sequelize… ,UX, responsive for any device (phone, tablet, computer). Server: Heroku',
         imagePlus: [
@@ -283,6 +296,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/InterviewChallenge/challenge4.png',
         ],
         link: 'https://ancient-tundra-32640.herokuapp.com/',
+        git: 'https://github.com/captainflo/challenge-intern',
       },
       {
         id: '13',
@@ -415,25 +429,29 @@ class PortfolioDetail extends React.Component {
                       <p>{this.state.portfolio[i].description2}</p>
                       <p>{this.state.portfolio[i].description3}</p>
                       <p>{this.state.portfolio[i].test}</p>
-                      <a
-                        href={this.state.portfolio[i].git}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          style={{ marginLeft: '0px', fontSize: '20px' }}
-                          className="fab fa-github-square"
-                        ></i>{' '}
-                        GitHub
-                      </a>
+                      {this.state.portfolio[i].git && (
+                        <a
+                          href={this.state.portfolio[i].git}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i
+                            style={{ marginLeft: '0px', fontSize: '20px' }}
+                            className="fab fa-github-square"
+                          ></i>{' '}
+                          GitHub
+                        </a>
+                      )}
                       <br></br>
-                      <a
-                        href={this.state.portfolio[i].link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fas fa-laptop"></i> Link Application
-                      </a>
+                      {this.state.portfolio[i].link && (
+                        <a
+                          href={this.state.portfolio[i].link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="fas fa-laptop"></i> Link Application
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
