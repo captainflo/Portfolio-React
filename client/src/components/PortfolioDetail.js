@@ -196,7 +196,7 @@ class PortfolioDetail extends React.Component {
         description:
           'This App is a way for the learning connoisseur to find legitimate breweries approved by an already experienced audience, while also having convenient tools for learning about certain popular beer brands and types.',
         description2:
-          'I designed and developed the overall website architecture matching the requested user experience. Technologies used in this project include: Bootstrap, HTML5, CSS3, Javascript, Firebase, Ajax, Jquery …API: DB Breweries ,UX, responsive for any device (phone, tablet, computer).Server: GitHub',
+          'I designed and developed the overall website architecture matching the requested user experience. Technologies used in this project include: Bootstrap, HTML5, CSS3, Javascript, Firebase, Ajax, Jquery …API: DB Breweries some features are not accessible due to API limits being reached...,UX, responsive for any device (phone, tablet, computer).Server: GitHub',
         imagePlus: [
           '/images/portfolio/BeerVille/beerville02.png',
           '/images/portfolio/BeerVille/beerville03.png',
