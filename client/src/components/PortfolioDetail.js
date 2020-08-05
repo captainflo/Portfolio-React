@@ -200,7 +200,7 @@ class PortfolioDetail extends React.Component {
         imagePlus: [
           '/images/portfolio/BeerVille/beerville02.png',
           '/images/portfolio/BeerVille/beerville03.png',
-          '/images/portfolio/BeerVille/beerville04.png',
+          '/images/portfolio/BeerVille/Beerville04.png',
         ],
         link: 'https://theartofnoise.github.io/Project1/index.html',
         git: 'https://github.com/captainflo/beerville',
