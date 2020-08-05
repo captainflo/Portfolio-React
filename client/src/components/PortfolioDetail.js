@@ -247,8 +247,7 @@ class PortfolioDetail extends React.Component {
         image: '/images/portfolio/ReactYoutube/react-youtube.png',
         titleDescription: 'SOCIAL NETWORK DEVELOPMENT (COURSE WORK)',
         description:
-          'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, Semantic, HTML5, CSS3, Javascript, Axios, Youtube Api… ,UX, responsive for any device (phone, tablet, computer).Server: Heroku',
-        link: 'https://murmuring-fjord-10669.herokuapp.com/',
+          'I designed and developed the overall website architecture matching the requested user experience.Setting up a git repository, versioning Technology used: React, Semantic, HTML5, CSS3, Javascript, Axios, Youtube Api… ,UX, responsive for any device (phone, tablet, computer).',
         git: 'https://github.com/captainflo/youtube-react',
       },
       {
