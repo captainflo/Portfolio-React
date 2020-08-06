@@ -13,6 +13,21 @@ class Portfolio extends React.Component {
   state = {
     portfolio: [
       {
+        id: '25',
+        title: 'SHOP APP',
+        image: '/images/portfolio/ShopApp/shop-app.png',
+      },
+      {
+        id: '24',
+        title: 'MEAL APP',
+        image: '/images/portfolio/MealApp/Meal-app.png',
+      },
+      {
+        id: '26',
+        title: 'JOB FINDING APP',
+        image: '/images/portfolio/FindJob/find.png',
+      },
+      {
         id: '23',
         title: 'SOUND GRAB',
         image: '/images/portfolio/SoundGrab/soundgrab01.png',
@@ -138,11 +153,50 @@ class Portfolio extends React.Component {
         portfolio.id !== '15' &&
         portfolio.id !== '16' &&
         portfolio.id !== '17' &&
-        portfolio.id !== '18'
+        portfolio.id !== '18' &&
+        portfolio.id !== '1' &&
+        portfolio.id !== '2' &&
+        portfolio.id !== '9' &&
+        portfolio.id !== '6' &&
+        portfolio.id !== '10' &&
+        portfolio.id !== '11' &&
+        portfolio.id !== '12' &&
+        portfolio.id !== '24' &&
+        portfolio.id !== '25' &&
+        portfolio.id !== '26'
       ) {
         return (
           <Link to={`/portfolio/${portfolio.id}`} key={portfolio.title}>
-            <div className="col m6 s12">
+            <div className="col m6 center s12">
+              <div
+                className="box-container"
+                style={{ backgroundImage: `url(${portfolio.image})` }}
+              >
+                <div className="box-title">
+                  <p>{portfolio.title}</p>
+                </div>
+              </div>
+            </div>
+          </Link>
+        );
+      } else {
+        return null;
+      }
+    });
+  };
+
+  renderReactNative = (portfolios) => {
+    return portfolios.map((portfolio) => {
+      if (
+        portfolio.id === '1' ||
+        portfolio.id === '2' ||
+        portfolio.id === '24' ||
+        portfolio.id === '25' ||
+        portfolio.id === '26'
+      ) {
+        return (
+          <Link to={`/portfolio/${portfolio.id}`} key={portfolio.title}>
+            <div className="col m6 center s12">
               <div
                 className="box-container"
                 style={{ backgroundImage: `url(${portfolio.image})` }}
@@ -168,11 +222,16 @@ class Portfolio extends React.Component {
         portfolio.id === '15' ||
         portfolio.id === '16' ||
         portfolio.id === '17' ||
-        portfolio.id === '18'
+        portfolio.id === '18' ||
+        portfolio.id === '9' ||
+        portfolio.id === '6' ||
+        portfolio.id === '10' ||
+        portfolio.id === '11' ||
+        portfolio.id === '12'
       ) {
         return (
           <Link to={`/portfolio/${portfolio.id}`} key={portfolio.title}>
-            <div className="col m6 s12">
+            <div className="col m6 center s12">
               <div
                 className="box-container"
                 style={{ backgroundImage: `url(${portfolio.image})` }}
@@ -193,8 +252,9 @@ class Portfolio extends React.Component {
   render() {
     const { portfolio } = this.state;
     return (
-      <div className="container center portfolio">
+      <div className="container  portfolio">
         <ScrollAnimation
+          className="center"
           animateIn="slideInDown"
           duration="2"
           animateOnce={true}
@@ -205,8 +265,15 @@ class Portfolio extends React.Component {
             This is my most recent Project bellow
           </p>
         </ScrollAnimation>
+        <h5 style={{ color: '#039be5', marginBottom: '20px' }}>
+          React Project
+        </h5>
         <ScrollAnimation animateIn="zoomIn" duration="2" animateOnce={true}>
           <div className="row">{this.renderBoxPortfolio(portfolio)}</div>
+        </ScrollAnimation>
+        <h5 style={{ color: '#039be5', marginBottom: '20px' }}>React Native</h5>
+        <ScrollAnimation animateIn="zoomIn" duration="2" animateOnce={true}>
+          <div className="row">{this.renderReactNative(portfolio)}</div>
         </ScrollAnimation>
         <div className="row">
           <ul className="collapsible">
@@ -214,7 +281,7 @@ class Portfolio extends React.Component {
               <div className="collapsible-header">
                 {' '}
                 <p style={{ color: '#039be5' }}>
-                  <i className="far fa-folder-open"></i> Old Project
+                  <i className="far fa-folder-open"></i> Other Project
                 </p>
               </div>
               <div className="collapsible-body">

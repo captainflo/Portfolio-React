@@ -12,6 +12,39 @@ class PortfolioDetail extends React.Component {
   state = {
     portfolio: [
       {
+        id: '26',
+        title: 'JOB FINDING APP',
+        image: '/images/portfolio/FindJob/find2.png',
+        titleDescription: 'JOB SEEKER (COUSE PROJECT)',
+        description:
+          'The goal of this project was to create a job app in react native and include the swipe card by tinder, based on your geolocalisation you can search job around you, the api indeed will give you all the job (play with dummy data because API Indeed reach limit or must pay) and understand how work Expo, React-native-maps, Redux, authentification with facebook...',
+        description3:
+          'Technologies used in this project include: React, React-Native, Expo, expo-facebook, expo-location, react-redux, react-native-elements, react-native-maps...',
+        git: 'https://github.com/captainflo/ReactNative-JobFindingApp',
+      },
+      {
+        id: '25',
+        title: 'SHOP APP',
+        image: '/images/portfolio/ShopApp/shop-app.png',
+        titleDescription: 'E-COMMERCE APP (COUSE PROJECT)',
+        description:
+          'The goal of this project was to create a E-commerce app in react native, create product, purchase, consult your order, authenticate and understand how to play with Expo, react navigation, redux, Firebase, authenticated with firebase...',
+        description3:
+          'Technologies used in this project include: React, React-Native, Expo, react-navigation,react-redux, react-navigation-stack, react-navigation-tabs, Firebase...',
+        git: 'https://github.com/captainflo/Shop-React-Native',
+      },
+      {
+        id: '24',
+        title: 'MEAL APP',
+        image: '/images/portfolio/MealApp/Meal-app.png',
+        titleDescription: 'MEAL APP (COUSE PROJECT)',
+        description:
+          'The goal of this project was to display some meal by categories, filter, add as favorite and understand how to play with Expo, react navigation, redux...',
+        description3:
+          'Technologies used in this project include: React, React-Native, Expo, react-navigation,react-redux, react-navigation-stack, react-navigation-tabs...',
+        git: 'https://github.com/captainflo/Meal-app-react-native',
+      },
+      {
         id: '23',
         title: 'SOUND GRAB',
         image: '/images/portfolio/SoundGrab/soundgrab01.png',
