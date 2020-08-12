@@ -68,14 +68,14 @@ class Portfolio extends React.Component {
         image: '/images/portfolio/OwlzV2/owlzv2.png',
       },
       {
-        id: '1',
-        title: 'TRACKAPP REACT NATIVE',
-        image: '/images/portfolio/TrackApp/trackApp.png',
-      },
-      {
         id: '2',
         title: 'REACT NATIVE FOOD',
         image: '/images/portfolio/ReactNativeFood/food.png',
+      },
+      {
+        id: '1',
+        title: 'TRACKAPP REACT NATIVE',
+        image: '/images/portfolio/TrackApp/trackApp.png',
       },
       {
         id: '7',
