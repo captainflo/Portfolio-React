@@ -13,6 +13,11 @@ class Portfolio extends React.Component {
   state = {
     portfolio: [
       {
+        id: '27',
+        title: 'TICKET APP',
+        image: '/images/portfolio/Ticketapp/01.png',
+      },
+      {
         id: '25',
         title: 'SHOP APP',
         image: '/images/portfolio/ShopApp/shop-app.png',
