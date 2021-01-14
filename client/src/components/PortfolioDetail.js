@@ -12,6 +12,26 @@ class PortfolioDetail extends React.Component {
   state = {
     portfolio: [
       {
+        id: '28',
+        title: 'WIKI AIRLINE',
+        image: '/images/portfolio/wiki-airline/01.png',
+        titleDescription: 'Travel Agency',
+        description:
+          'The concept of this project was to create a travel agency where you can select a list of flight (dummy data). you can order your flight and receive by email your bording pass.',
+        description2:
+          "To buy flight use this credit card number: 4242 4242 4242 4242(test mode). Eventually you will receive your ticket as spam (I'm using a free version of sendgrid).About the data of the flights it's dummy data",
+        description3:
+          'Technologies used in this project include: React, Redux, Javascript ,Passport.js, Sendgrid, Mongo, Mongoose, Node.js, Express.js..., responsive for any device (phone, tablet, computer). Server: Heroku…',
+        imagePlus: [
+          '/images/portfolio/wiki-airline/02.png',
+          '/images/portfolio/wiki-airline/03.png',
+          '/images/portfolio/wiki-airline/04.png',
+          '/images/portfolio/wiki-airline/05.png',
+        ],
+        link: 'https://guarded-tor-38601.herokuapp.com/',
+        git: 'https://github.com/captainflo/TicketApp',
+      },
+      {
         id: '27',
         title: 'TICKET APP',
         image: '/images/portfolio/Ticketapp/02.png',
