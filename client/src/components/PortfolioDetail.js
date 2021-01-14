@@ -28,8 +28,8 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/wiki-airline/04.png',
           '/images/portfolio/wiki-airline/05.png',
         ],
-        link: 'https://guarded-tor-38601.herokuapp.com/',
-        git: 'https://github.com/captainflo/TicketApp',
+        link: 'https://vast-reef-93181.herokuapp.com/',
+        git: 'https://github.com/captainflo/wiki-airline',
       },
       {
         id: '27',
