@@ -15,11 +15,11 @@ class PortfolioDetail extends React.Component {
         id: '28',
         title: 'WIKI AIRLINE',
         image: '/images/portfolio/wiki-airline/01.png',
-        titleDescription: 'Travel Agency',
+        titleDescription: 'Travel Website',
         description:
-          'The concept of this project was to create a travel agency where you can select a list of flight (dummy data). you can order your flight and receive by email your bording pass.',
+          'The concept of this project was to create a travel website. Users can search for upcoming flights, select from a list of flights (dummy data), order, and receive bording pass via email.',
         description2:
-          "To buy flight use this credit card number: 4242 4242 4242 4242(test mode). Eventually you will receive your ticket as spam (I'm using a free version of sendgrid).About the data of the flights it's dummy data",
+          "To buy flight use credit card number:  4242 4242 4242 4242 (test mode). You will receive your ticket as spam (I'm using a free version of sendgrid). About the data of the flights it's dummy data",
         description3:
           'Technologies used in this project include: React, Redux, Javascript ,Passport.js, Sendgrid, Mongo, Mongoose, Node.js, Express.js..., responsive for any device (phone, tablet, computer). Server: Heroku…',
         imagePlus: [
