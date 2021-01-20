@@ -37,9 +37,9 @@ class PortfolioDetail extends React.Component {
         image: '/images/portfolio/Ticketapp/02.png',
         titleDescription: 'BUY AND SELL TICKET',
         description:
-          'The concept of this project was to create an provide services for buyers and sellers of tickets for sports, concerts, theater and other live entertainment events.',
+          'The concept of this project was to create and provide services for buyers and sellers of tickets for sports, concerts, theater and other live entertainment events.',
         description2:
-          "To buy ticket use this credit card number: 4242 4242 4242 4242(test mode). Eventually you will receive your ticket as spam (I'm using a free version of sendgrid).",
+          "To buy tickets use this credit card number: 4242 4242 4242 4242(test mode). Eventually you will receive your ticket as spam (I'm using a free version of sendgrid).",
         description3:
           'Technologies used in this project include: React, Redux, Javascript ,Passport.js, Sendgrid, Mongo, Mongoose, Node.js, Express.js..., responsive for any device (phone, tablet, computer). Server: Heroku…',
         imagePlus: [
