@@ -13,6 +13,11 @@ class Portfolio extends React.Component {
   state = {
     portfolio: [
       {
+        id: '29',
+        title: 'SHADEMONSTER',
+        image: '/images/portfolio/shadeMonster/01.png',
+      },
+      {
         id: '28',
         title: 'WIKI AIRLINE',
         image: '/images/portfolio/wiki-airline/01.png',
@@ -173,7 +178,8 @@ class Portfolio extends React.Component {
         portfolio.id !== '12' &&
         portfolio.id !== '24' &&
         portfolio.id !== '25' &&
-        portfolio.id !== '26'
+        portfolio.id !== '26' &&
+        portfolio.id !== '29'
       ) {
         return (
           <Link to={`/portfolio/${portfolio.id}`} key={portfolio.title}>
@@ -259,6 +265,29 @@ class Portfolio extends React.Component {
     });
   };
 
+  renderShopify = (portfolios) => {
+    return portfolios.map((portfolio) => {
+      if (portfolio.id === '29') {
+        return (
+          <Link to={`/portfolio/${portfolio.id}`} key={portfolio.title}>
+            <div className="col m6 center s12">
+              <div
+                className="box-container"
+                style={{ backgroundImage: `url(${portfolio.image})` }}
+              >
+                <div className="box-title">
+                  <p>{portfolio.title}</p>
+                </div>
+              </div>
+            </div>
+          </Link>
+        );
+      } else {
+        return null;
+      }
+    });
+  };
+
   render() {
     const { portfolio } = this.state;
     return (
@@ -284,6 +313,10 @@ class Portfolio extends React.Component {
         <h5 style={{ color: '#039be5', marginBottom: '20px' }}>React Native</h5>
         <ScrollAnimation animateIn="zoomIn" duration="2" animateOnce={true}>
           <div className="row">{this.renderReactNative(portfolio)}</div>
+        </ScrollAnimation>
+        <h5 style={{ color: '#039be5', marginBottom: '20px' }}>Shopify</h5>
+        <ScrollAnimation animateIn="zoomIn" duration="2" animateOnce={true}>
+          <div className="row">{this.renderShopify(portfolio)}</div>
         </ScrollAnimation>
         <div className="row">
           <ul className="collapsible">

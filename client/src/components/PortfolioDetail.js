@@ -12,6 +12,21 @@ class PortfolioDetail extends React.Component {
   state = {
     portfolio: [
       {
+        id: '29',
+        title: 'SHADEMONSTER',
+        image: '/images/portfolio/shadeMonster/01.png',
+        titleDescription: 'Shade and Blind Ecommerce',
+        description:
+          'The concept of this project was to create a E-Commerce website via Shopify. ',
+        imagePlus: [
+          '/images/portfolio/shadeMonster/02.png',
+          '/images/portfolio/shadeMonster/03.png',
+          '/images/portfolio/shadeMonster/04.png',
+        ],
+        link:
+          'https://www.shademonster.com/a/pf_preview?id=db53270f-94e9-4b4f-9329-db11b772e781',
+      },
+      {
         id: '28',
         title: 'WIKI AIRLINE',
         image: '/images/portfolio/wiki-airline/01.png',
