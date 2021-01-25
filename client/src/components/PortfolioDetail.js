@@ -17,7 +17,7 @@ class PortfolioDetail extends React.Component {
         image: '/images/portfolio/shadeMonster/01.png',
         titleDescription: 'Shade and Blind Ecommerce',
         description:
-          'The concept of this project was to create a E-Commerce website via Shopify. ',
+          'The concept of this project was to create a Landing page via Shopify. User can see the different feature and concept of the company, fill up a form and the company will receive the demande by the cpmpany email, the language support multi language.',
         imagePlus: [
           '/images/portfolio/shadeMonster/02.png',
           '/images/portfolio/shadeMonster/03.png',
