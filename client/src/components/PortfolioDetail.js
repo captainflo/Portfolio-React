@@ -17,7 +17,9 @@ class PortfolioDetail extends React.Component {
         image: '/images/portfolio/shadeMonster/01.png',
         titleDescription: 'Shade and Blind Ecommerce',
         description:
-          'The concept of this project was to create a Landing page via Shopify. User can see the different feature and concept of the company, fill up a form and the company will receive the demande by the cpmpany email, the language support multi language.',
+          'The concept of this project was to create a Landing page via Shopify. User can see the different features and concepts of the company, complete a form and the company will receive the request via their CRM Klavio, the website is bilingual',
+        description2:
+          'Plugin and use: Klavio for Email Marketing, pageFly(create page), Weglot(Language), Privy(PopUp) ',
         imagePlus: [
           '/images/portfolio/shadeMonster/02.png',
           '/images/portfolio/shadeMonster/03.png',
