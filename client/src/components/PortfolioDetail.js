@@ -258,9 +258,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/RentVehicleReact/vehicle03.png',
           '/images/portfolio/RentVehicleReact/vehicle04.png',
         ],
-        test:
-          'Credit card number : (4242 4242 4242 4242)',
-          'Google Map API limits being reached: check the demo video on GitHub',
+        test: 'Credit card number : (4242 4242 4242 4242)',
         link: 'https://still-wildwood-65496.herokuapp.com/',
         git: 'https://github.com/captainflo/React-Vehicles',
       },
