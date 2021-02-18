@@ -14,12 +14,12 @@ function About() {
           <div className="col m6 about-text">
             <h2>About Me</h2>
             <p>
-              Hi, I'm Florian, I am a Full Stack web developer with more than
-              two years of experience, passionate about programming, and
-              continually evaluating and upgrading my skills. I work hard to
-              stay at the cutting edge of web development, and to improve the
-              core functionalities of my work. I enjoy bringing innovative ideas
-              to life.
+              Hi, I'm Florian, I am a Full Stack web developer with three years
+              of experience, passionate about programming, and continually
+              evaluating and upgrading my skills. I work hard to stay at the
+              cutting edge of web development, and to improve the core
+              functionalities of my work. I enjoy bringing innovative ideas to
+              life.
             </p>
           </div>
         </ScrollAnimation>
