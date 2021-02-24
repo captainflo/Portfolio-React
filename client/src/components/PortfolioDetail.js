@@ -485,12 +485,6 @@ class PortfolioDetail extends React.Component {
     }
   };
 
-  function = () => {
-    for (let index = 0; index < array.length; index++) {
-      const element = array[index];
-    }
-  };
-
   renderBoxPortfolio = (portfolio) => {
     for (let i = 0; i < portfolio.length; i++) {
       if (this.props.match.params.id === this.state.portfolio[i].id) {
