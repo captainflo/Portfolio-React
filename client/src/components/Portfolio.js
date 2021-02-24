@@ -49,7 +49,7 @@ class Portfolio extends React.Component {
       },
       {
         id: '22',
-        title: 'WIKI GANE',
+        title: 'WIKI GAME',
         image: '/images/portfolio/Game/wikiGame.png',
       },
       {

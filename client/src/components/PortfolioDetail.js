@@ -258,7 +258,8 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/RentVehicleReact/vehicle03.png',
           '/images/portfolio/RentVehicleReact/vehicle04.png',
         ],
-        test: 'Credit card number : (4242 4242 4242 4242)',
+        test:
+          'Credit card number : (4242 4242 4242 4242), Api Key Google Map works only in development, Check the full video demo on github',
         link: 'https://still-wildwood-65496.herokuapp.com/',
         git: 'https://github.com/captainflo/React-Vehicles',
       },
@@ -481,6 +482,12 @@ class PortfolioDetail extends React.Component {
           </div>
         );
       });
+    }
+  };
+
+  function = () => {
+    for (let index = 0; index < array.length; index++) {
+      const element = array[index];
     }
   };
 
