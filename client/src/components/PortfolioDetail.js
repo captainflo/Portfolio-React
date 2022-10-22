@@ -25,8 +25,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/shadeMonster/03.png',
           '/images/portfolio/shadeMonster/04.png',
         ],
-        link:
-          'https://www.shademonster.com/a/pf_preview?id=db53270f-94e9-4b4f-9329-db11b772e781',
+        link: 'https://www.shademonster.com/a/pf_preview?id=db53270f-94e9-4b4f-9329-db11b772e781',
       },
       {
         id: '28',
@@ -258,8 +257,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/RentVehicleReact/vehicle03.png',
           '/images/portfolio/RentVehicleReact/vehicle04.png',
         ],
-        test:
-          'Credit card number : (4242 4242 4242 4242), Api Key Google Map works only in development, Check the full video demo on github',
+        test: 'Credit card number : (4242 4242 4242 4242), Api Key Google Map works only in development, Check the full video demo on github',
         link: 'https://still-wildwood-65496.herokuapp.com/',
         git: 'https://github.com/captainflo/React-Vehicles',
       },
@@ -326,8 +324,6 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/Owlz/owlz03.png',
           '/images/portfolio/Owlz/owlz04.png',
         ],
-        test: 'Credit card number : (4242 4242 4242 4242)',
-        link: 'https://powerful-anchorage-11786.herokuapp.com/',
         git: 'https://github.com/captainflo/owlz',
       },
       {
@@ -369,7 +365,6 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/Interview/floweb-mundo4.png',
         ],
         test: 'Api they gave me is not working anymore to make the request :(',
-        link: 'https://floating-mesa-22897.herokuapp.com/',
       },
       {
         id: '12',
