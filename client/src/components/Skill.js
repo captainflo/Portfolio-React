@@ -58,6 +58,12 @@ class Skill extends React.Component {
               </p>
               <p className="carousel-item">
                 <img
+                  src={process.env.PUBLIC_URL + '/images/gatsby.jpeg'}
+                  alt="ExpressJS"
+                />
+              </p>
+              <p className="carousel-item">
+                <img
                   src={process.env.PUBLIC_URL + '/images/html.png'}
                   alt="html"
                 />
@@ -151,6 +157,12 @@ class Skill extends React.Component {
                 <img
                   src={process.env.PUBLIC_URL + '/images/squilte.png'}
                   alt="squilte"
+                />
+              </p>
+              <p className="carousel-item">
+                <img
+                  src={process.env.PUBLIC_URL + '/images/graphQL.png'}
+                  alt="Firebase"
                 />
               </p>
               <p className="carousel-item">
