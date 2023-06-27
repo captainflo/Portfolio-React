@@ -300,9 +300,28 @@ class Portfolio extends React.Component {
         >
           <h2>Portfolio</h2>
           <hr></hr>
-          <p style={{ marginBottom: '40px' }}>
+          {/* <p style={{ marginBottom: '40px' }}>
             This is my most recent Project bellow
-          </p>
+          </p> */}
+        </ScrollAnimation>
+        <h5 style={{ color: '#039be5', marginBottom: '20px' }}>Company</h5>
+        <ScrollAnimation animateIn="zoomIn" duration="2" animateOnce={true}>
+          <div className="company">
+            <a target="_blank" href={`https://www.brightcove.com/en/`}>
+              <img
+                src={process.env.PUBLIC_URL + '/images/company/brightcove.jpeg'}
+                alt="background"
+              />
+            </a>
+            <a target="_blank" href={`https://pricesmart.com/site/co/en`}>
+              <img
+                src={
+                  process.env.PUBLIC_URL + '/images/company/PriceSmart_Logo.png'
+                }
+                alt="background"
+              />
+            </a>
+          </div>
         </ScrollAnimation>
         <h5 style={{ color: '#039be5', marginBottom: '20px' }}>
           React Project

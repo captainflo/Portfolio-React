@@ -44,7 +44,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/wiki-airline/04.png',
           '/images/portfolio/wiki-airline/05.png',
         ],
-        link: 'https://vast-reef-93181.herokuapp.com/',
+        // link: 'https://vast-reef-93181.herokuapp.com/',
         git: 'https://github.com/captainflo/wiki-airline',
       },
       {
@@ -63,7 +63,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/Ticketapp/04.png',
           '/images/portfolio/Ticketapp/05.png',
         ],
-        link: 'https://guarded-tor-38601.herokuapp.com/',
+        // link: 'https://guarded-tor-38601.herokuapp.com/',
         git: 'https://github.com/captainflo/TicketApp',
       },
       {
@@ -117,7 +117,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/SoundGrab/soundgrab05.png',
           '/images/portfolio/SoundGrab/soundgrab06.png',
         ],
-        link: 'https://soundgrab.herokuapp.com/',
+        // link: 'https://soundgrab.herokuapp.com/',
         git: 'https://github.com/captainflo/GrabSound',
       },
       {
@@ -137,7 +137,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/Game/wikiGame04.png',
           '/images/portfolio/Game/wikiGame05.png',
         ],
-        link: 'https://wikivideogame.herokuapp.com/',
+        // link: 'https://wikivideogame.herokuapp.com/',
         git: 'https://github.com/captainflo/Game-React',
       },
       {
@@ -158,7 +158,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/Wikinetwork/home05.png',
           '/images/portfolio/Wikinetwork/home06.png',
         ],
-        link: 'https://wikinetwork.herokuapp.com',
+        // link: 'https://wikinetwork.herokuapp.com',
         git: 'https://github.com/captainflo/Wikinetwork',
       },
       {
@@ -177,7 +177,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/ReactSport/sport2.png',
           '/images/portfolio/ReactSport/sport3.png',
         ],
-        link: 'https://wikisport.herokuapp.com',
+        // link: 'https://wikisport.herokuapp.com',
         git: 'https://github.com/captainflo/Sport-React',
       },
       {
@@ -196,7 +196,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/OwlzV2/owlzv203.png',
           '/images/portfolio/OwlzV2/owlzv204.png',
         ],
-        link: 'https://fowlz.herokuapp.com/',
+        // link: 'https://fowlz.herokuapp.com/',
         git: 'https://github.com/owlzApp/owlzApp',
       },
       {
@@ -238,7 +238,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/Movie/floweb-movie03.png',
           '/images/portfolio/Movie/floweb-movie04.png',
         ],
-        link: 'https://morning-ravine-32595.herokuapp.com/',
+        // link: 'https://morning-ravine-32595.herokuapp.com/',
         git: 'https://github.com/captainflo/Movie-react',
       },
       {
@@ -258,7 +258,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/RentVehicleReact/vehicle04.png',
         ],
         test: 'Credit card number : (4242 4242 4242 4242), Api Key Google Map works only in development, Check the full video demo on github',
-        link: 'https://still-wildwood-65496.herokuapp.com/',
+        // link: 'https://still-wildwood-65496.herokuapp.com/',
         git: 'https://github.com/captainflo/React-Vehicles',
       },
       {
@@ -273,7 +273,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/SalonEssentiel2/floweb-salon03.png',
           '/images/portfolio/SalonEssentiel2/floweb-salon04.png',
         ],
-        link: 'https://jc-salon-essentiel.herokuapp.com/',
+        // link: 'https://jc-salon-essentiel.herokuapp.com/',
       },
       {
         id: '9',
@@ -289,7 +289,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/BeerVille/beerville03.png',
           '/images/portfolio/BeerVille/Beerville04.png',
         ],
-        link: 'https://theartofnoise.github.io/Project1/index.html',
+        // link: 'https://theartofnoise.github.io/Project1/index.html',
         git: 'https://github.com/captainflo/beerville',
       },
       {
@@ -307,7 +307,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/Emaily/floweb-emaily04.png',
         ],
         test: 'Credit card number : (4242 4242 4242 4242)',
-        link: 'https://calm-coast-77343.herokuapp.com/',
+        // link: 'https://calm-coast-77343.herokuapp.com/',
         git: 'https://github.com/captainflo/SurveyApp-react',
       },
       {
@@ -349,7 +349,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/Mongo/mongo03.png',
           '/images/portfolio/Mongo/mongo04.png',
         ],
-        link: 'https://fast-everglades-83605.herokuapp.com/index.html',
+        // link: 'https://fast-everglades-83605.herokuapp.com/index.html',
         git: 'https://github.com/captainflo/mongo-scraper',
       },
       {
@@ -378,7 +378,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/InterviewChallenge/challenge3.png',
           '/images/portfolio/InterviewChallenge/challenge4.png',
         ],
-        link: 'https://ancient-tundra-32640.herokuapp.com/',
+        // link: 'https://ancient-tundra-32640.herokuapp.com/',
         git: 'https://github.com/captainflo/challenge-intern',
       },
       {
@@ -421,7 +421,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/Old/Mimi/floweb-mylene02.png',
           '/images/portfolio/Old/Mimi/floweb-mylene03.png',
         ],
-        link: 'https://mylene-ongle.herokuapp.com/',
+        // link: 'https://mylene-ongle.herokuapp.com/',
       },
       {
         id: '16',
@@ -463,7 +463,7 @@ class PortfolioDetail extends React.Component {
           '/images/portfolio/Old/Hopen/03.png',
           '/images/portfolio/Old/Hopen/04.png',
         ],
-        link: 'https://hopen.herokuapp.com/',
+        // link: 'https://hopen.herokuapp.com/',
       },
     ],
   };
