@@ -40,6 +40,18 @@ class Skill extends React.Component {
               </p>
               <p className="carousel-item">
                 <img
+                  src={process.env.PUBLIC_URL + '/images/go.png'}
+                  alt="react"
+                />
+              </p>
+              <p className="carousel-item">
+                <img
+                  src={process.env.PUBLIC_URL + '/images/python.png'}
+                  alt="react"
+                />
+              </p>
+              <p className="carousel-item">
+                <img
                   src={process.env.PUBLIC_URL + '/images/redux.png'}
                   alt="redux"
                 />
@@ -149,6 +161,12 @@ class Skill extends React.Component {
               </p>
               <p className="carousel-item">
                 <img
+                  src={process.env.PUBLIC_URL + '/images/redis.png'}
+                  alt="react"
+                />
+              </p>
+              <p className="carousel-item">
+                <img
                   src={process.env.PUBLIC_URL + '/images/mongodb-logo.png'}
                   alt="mongodb-logo"
                 />
@@ -179,12 +197,18 @@ class Skill extends React.Component {
             animateOnce={true}
           >
             <h5>
-              <i className="fas fa-server"></i> Operating System
+              <i className="fas fa-server"></i> Operating System & Cloud Platform
             </h5>
             <div className="carousel">
               <p className="carousel-item">
                 <img
                   src={process.env.PUBLIC_URL + '/images/github.png'}
+                  alt="github"
+                />
+              </p>
+                <p className="carousel-item">
+                <img
+                  src={process.env.PUBLIC_URL + '/images/vercel.png'}
                   alt="github"
                 />
               </p>

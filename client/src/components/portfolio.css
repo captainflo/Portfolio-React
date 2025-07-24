@@ -1,9 +1,12 @@
 /* comapany */
 .comapany {
   display: flex;
+  justify-content: space-between;
 }
+
 .company img {
   width: 200px;
+  height: auto;
 }
 .box-container {
   border-radius: 5px;

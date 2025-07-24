@@ -321,6 +321,14 @@ class Portfolio extends React.Component {
                 alt="background"
               />
             </a>
+             <a target="_blank" href={`https://sandals.com`}>
+              <img
+                src={
+                  process.env.PUBLIC_URL + '/images/company/sandals.png'
+                }
+                alt="background"
+              />
+            </a>
           </div>
         </ScrollAnimation>
         <h5 style={{ color: '#039be5', marginBottom: '20px' }}>

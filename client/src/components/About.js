@@ -14,12 +14,9 @@ function About() {
           <div className="col m6 about-text">
             <h2>About Me</h2>
             <p>
-              Hi, I'm Florian, I am a Full Stack web developer with seven years
-              of experience, passionate about programming, and continually
-              evaluating and upgrading my skills. I work hard to stay at the
-              cutting edge of web development, and to improve the core
-              functionalities of my work. I enjoy bringing innovative ideas to
-              life.
+              Hi, I'm Florian — a Full Stack Developer with over 8 years of experience building fast, reliable, and scalable web applications. I've had the chance to lead talented development teams and deliver complex projects on time for companies like Sandals Beaches, PriceSmart, and Brightcove.
+
+I enjoy working with modern tools like React, Next.js, Contentful, Strapi, GraphQL, Go, Python, and Node.js, and I’m especially passionate about creating clean user experiences, integrating CMS platforms, and building systems that scale. I care about the details — from performance optimization to architecture — and always aim to deliver high-quality results.
             </p>
           </div>
         </ScrollAnimation>
